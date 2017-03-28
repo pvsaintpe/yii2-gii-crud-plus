@@ -1,0 +1,29 @@
+{
+  "name": "pvsaintpe/yii2-gii-crud-plus",
+  "description": "Yii 2 Gii Crud Plus Extension",
+  "keywords": [
+    "yii2",
+    "gii",
+    "crud",
+    "code generator"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Pavel Veselov",
+      "email": "pvsaintpe@mail.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "yiisoft/yii2-gii": "2.0.5",
+    "yiisoft/yii2-jui": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\gii\\crud\\plus\\": ""
+    }
+  }
+}
